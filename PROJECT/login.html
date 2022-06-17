@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <style>
+        /* * {
+            margin: 0px;
+            padding: 0px;
+
+        } */
+
+        #navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(241, 241, 239);
+    position: relative;
+     width: 100%;
+
+}
+
+.navbar-div {
+    display: flex;
+   
+
+}
+
+.navbar-div>h5 {
+    margin-right: 30px;
+}
+
+#nav-img {
+    margin-left: 40px;
+    padding-right: 40px;
+    height: 75px;
+}
+
+.search-div {
+    margin-right: 40px;
+}
+
+.navbar-div>h5:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#nav-img:hover {
+    cursor: pointer;
+}
+
+#cart-value {
+    border-radius: 70%;
+    background-color: rgb(10, 10, 10);
+    margin-left: 10px;
+    padding: 5px 8px;
+    color: white;
+}
+
+        
+
+        body {
+            background: url("wp3631243-headset-wallpapers.jpg");
+            background-position: centre;
+            background-size: cover;
+            
+        }
+
+        .form-box {
+            width: 450px;
+            box-shadow: 0 0 10px 0 #000;
+            margin: 100px auto;
+            background: white;
+            padding: 40px 140px;
+            border-radius: 50px;
+        }
+
+        input {
+            width: 100%;
+            height: 40px;
+            border-radius: 30px;
+            outline: none;
+            border: 1px solid grey;
+            padding: 0px;
+        }
+
+        .input-group{
+            margin:20px auto;
+            position: relative;
+        }
+
+        label{
+            position: absolute;
+            top: -8px;
+            left: 20px;
+            background: white;
+            padding: 0 5px;
+        }
+
+        button{
+            padding: 10px 20px;
+            border: none;
+            background: blue;
+            color: #fff;
+            font-size: 14px;
+            cursor: pointer;
+            border-radius: 20px;
+            width: 100%;
+            margin-left: 10px;
+        }
+
+        h2{
+            text-align: center;
+            
+        }
+
+        p{
+            text-align: center;
+            margin: 30px auto;
+        }
+
+        .social img{
+            width: 40px;
+            margin: 0 5px;
+            cursor: pointer;
+            text-align: center;
+        }
+
+        .social{
+            text-align: center;
+        }
+
+        button:hover{
+            background-color: bisque;
+            transition: 0.5;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="navbar">
+        <div>
+            <img id="nav-img" src="https://assets.rha-audio.com/nzssx/c/Headphone_zone_logo_3-small.png" alt="">
+        </div>
+        <div class="navbar-div">
+            <h5>Categories</h5>
+            <h5>Brands</h5>
+            <h5>Price</h5>
+            <h5>Deals</h5>
+            <h5>Headphone Finder</h5>
+            <h5>Events</h5>
+            <h5>Info</h5>
+            <h5>Help Center</h5>
+        </div>
+        <div class="navbar-div search-div">
+            <h5>Search</h5>
+            <h5>Login</h5>
+            <h5>Cart <span id="cart-value"> 0</span></h5>
+        </div>
+    </div>
+    <div class="form-box">
+        <h2>LOGIN</h2>
+        <form>
+            <div class="input-group">
+                <label>Username</label>
+                <input type="text">
+            </div>
+            <div class="input-group">
+            <label>Password</label>
+            <input type="Password ">
+            </div>
+            <button type="submit">Login</button>
+        </form>
+
+        <p>Login with Social media</p>
+        <div class="social">
+            <img src="fb2.png" alt="">
+            <img src="google.png" alt="">
+            <img src="download (2).png" alt="">
+        </div>
+    </div>
+</body>
+
+</html>
